@@ -1,4 +1,15 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply p-0 m-0 bg-white text-slate-900 text-base font-openSans;
+  }
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +24,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} */
