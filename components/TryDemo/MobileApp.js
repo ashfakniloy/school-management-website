@@ -20,14 +20,14 @@ function MobileApp() {
             <Image
               src="/images/playstore_button.png"
               alt="playstore"
-              className="rounded-xl"
+              className="rounded-xl cursor-pointer"
               width={396}
               height={119}
             />
             <Image
               src="/images/appstore_button.png"
               alt="appstore"
-              className="rounded-xl"
+              className="rounded-xl cursor-pointer"
               width={396}
               height={119}
             />

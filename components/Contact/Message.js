@@ -1,6 +1,6 @@
 import * as Yup from "yup";
 import { Formik, Form } from "formik";
-import { TextField, TextArea } from "./InputField";
+import { TextField, TextArea } from "../common/InputField";
 
 function Message() {
   const initialValues = {

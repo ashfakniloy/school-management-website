@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
-import Login from "../components/TryDemo.js/Login";
-import MobileApp from "../components/TryDemo.js/MobileApp";
+import ClientsLogin from "../components/TryDemo/ClientsLogin";
+import MobileApp from "../components/TryDemo/MobileApp";
 
 function DemoPage() {
   return (
     <Layout>
-      <Login />
+      <ClientsLogin />
       <MobileApp />
     </Layout>
   );

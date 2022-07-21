@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { demoClients } from "../data/demoClients";
 
-function Login() {
+function ClientsLogin() {
   return (
     <div className="container py-10">
       <div className="text-center space-y-5">
@@ -37,9 +38,11 @@ function Login() {
             <h4 className="my-4 mx-5 py-4 text-xl font-oswald tracking-widest font-bold border-y border-slate-200">
               {client.name}
             </h4>
-            <div className="px-3 py-3 mx-20 border-2 border-custom-green rounded text-sm text-custom-green hover:bg-gray-100 transition duration-300 cursor-pointer">
-              Login as {client.button}
-            </div>
+            <Link href={client.link} passHref>
+              <div className="px-3 py-3 mx-20 border-2 border-custom-green rounded text-sm text-custom-green hover:bg-gray-100 transition duration-300 cursor-pointer">
+                Login as {client.button}
+              </div>
+            </Link>
           </div>
         ))}
       </div>
@@ -47,4 +50,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default ClientsLogin;
