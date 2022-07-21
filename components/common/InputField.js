@@ -1,6 +1,6 @@
 import { ErrorMessage, Field } from "formik";
 
-export const TextField = ({ label, name, type }) => {
+export const TextField = ({ label, name, type, ...props }) => {
   return (
     <div className="mb-5">
       <label htmlFor={name} className="text-sm">
@@ -12,6 +12,7 @@ export const TextField = ({ label, name, type }) => {
           id={name}
           name={name}
           type={type}
+          {...props}
         />
         <p className="absolute -bottom-4 text-red-600 text-xs">
           <ErrorMessage name={name} />

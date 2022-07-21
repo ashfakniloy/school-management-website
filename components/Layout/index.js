@@ -1,18 +1,18 @@
-// import Head from "next/head";
+import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 
 function Layout({ children, pageDetails }) {
-  // const { title, description, keywords } = pageDetails;
+  const { title, description, keywords } = pageDetails;
 
   return (
     <div>
-      {/* <Head>
+      <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
-      </Head> */}
+      </Head>
 
       <div>
         <Header />
@@ -28,9 +28,11 @@ function Layout({ children, pageDetails }) {
 }
 
 Layout.defaultProps = {
-  title: "School Management Website",
-  description: "School Management Website",
-  keywords: "School Management Website",
+  pageDetails: {
+    title: "School Management system",
+    description: "School Management Website",
+    keywords: "School Management Website",
+  },
 };
 
 export default Layout;

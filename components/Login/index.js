@@ -72,6 +72,7 @@ function Login({ client }) {
                         label="Password *"
                         name="password"
                         type="password"
+                        autoComplete="on"
                       />
                     </div>
                     <button

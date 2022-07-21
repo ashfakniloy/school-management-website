@@ -7,9 +7,15 @@ import Quote from "../components/Home/Quote";
 import Efficient from "../components/Home/Efficient";
 import ContactUs from "../components/Home/ContactUs";
 
+const pageDetails = {
+  title: "Web School ERP",
+  description: "School management system",
+  keywords: "school management system",
+};
+
 export default function Home() {
   return (
-    <Layout>
+    <Layout pageDetails={pageDetails}>
       <Banner />
       <Description />
       <ChooseUs />
