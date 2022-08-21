@@ -6,7 +6,7 @@ function Contact() {
       id: 1,
       icon: <BsEnvelope className="text-5xl fill-custom-green" />,
       title: "Have any questions?",
-      contact: "support@web-school.in",
+      contact: "support@web-school-erp.com",
       link: "mailto:rana.buddy@gmail.com",
     },
     {
