@@ -36,8 +36,7 @@ function Footer() {
                 Bangladesh
               </p>
               <p className="">Phone: +88071234567</p>
-              <p className="">E-Mail: support@web-school.in</p>
-              <p className="">Web: https://web-school.in</p>
+              <p className="">E-Mail: support@web-school-erp.com</p>
             </div>
           </div>
         </div>
