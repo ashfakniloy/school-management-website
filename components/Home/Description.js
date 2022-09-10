@@ -9,7 +9,7 @@ function Description() {
         <span className="text-custom-green">
           Advanced School Management Software
         </span>{" "}
-        for an hassle free{" "}
+        for a hassle free{" "}
         <span className="text-custom-green">digital education</span>
       </h1>
 
