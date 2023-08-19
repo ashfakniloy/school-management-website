@@ -3,14 +3,15 @@ import Image from "next/image";
 function Quote() {
   return (
     <div className="bg-custom-green2">
-      <div className="container py-20 px-20 text-center space-y-7">
+      <div className="container py-10 lg:py-20 lg:px-20 text-center space-y-3 lg:space-y-7">
         <Image
           src="/images/icons/quote.png"
           alt="quote"
           width={73}
           height={61}
+          className="scale-75 lg:scale-100"
         />
-        <h1 className="text-white text-[42px] font-oswald font-light leading-tight">
+        <h1 className="text-white text-[26px] lg:text-[42px] font-oswald font-light leading-tight">
           Web School ERP provides an easy to use interface with initiative
           functionalities and controls. Exciting range of features and
           flexibility for customization is that what makes this school software

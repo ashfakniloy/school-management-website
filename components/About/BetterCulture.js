@@ -3,8 +3,8 @@ import Image from "next/image";
 function BetterCulture() {
   return (
     <div>
-      <div className="container pt-24 pb-16">
-        <div className="flex relative">
+      <div className="container pt-16 lg:pt-24 pb-12 lg:pb-16">
+        <div className="flex flex-col lg:flex-row relative">
           <div className="">
             <Image
               src="/images/laptop_dashboard.png"
@@ -13,9 +13,10 @@ function BetterCulture() {
               height={500}
             />
           </div>
-          <div className="space-y-6 absolute right-0 top-14 max-w-[600px]">
-            <h1 className="text-[44px] font-oswald font-light leading-snug">
-              The way we created a better culture in <br />
+          <div className="space-y-6 lg:absolute right-0 lg:top-14 mt-5 lg:mt-0 lg:max-w-[600px]">
+            <h1 className="text-[28px] lg:text-[44px] font-oswald font-light leading-snug">
+              The way we created a better culture in{" "}
+              <br className="hidden lg:block" />
               <span className="text-custom-green">education</span>
             </h1>
             <p className="leading-relaxed">

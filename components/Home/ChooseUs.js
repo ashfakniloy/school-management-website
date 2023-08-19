@@ -3,21 +3,28 @@ import { chooseUsData } from "../data/chooseUsData";
 
 function ChooseUs() {
   return (
-    <div className="container my-10 flex justify-between items-center gap-5">
+    <div className="container my-10 flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5">
       <div className="">
-        <h1 className="text-[42px] font-oswald font-light leading-tight">
+        <h1 className="text-[26px] lg:text-[42px] font-oswald font-light leading-tight">
           3 main reasons explaining <br />
           <span className="text-custom-green">why to choose us</span>
         </h1>
 
-        <div className="mt-10 flex gap-5">
+        <div className="mt-5 lg:mt-10 flex flex-col lg:flex-row gap-7 lg:gap-5">
           {chooseUsData.map((item) => (
-            <div className="space-y-5" key={item.id}>
-              <Image src={item.icon} alt="icon" width={100} height={100} />
-              <h3 className="text-[22px] font-oswald font-light">
-                {item.title}
-              </h3>
-              <p className="text-custom-gray">{item.text}</p>
+            <div
+              key={item.id}
+              className="space-y-3 lg:space-y-5 flex lg:flex-col items-center lg:items-start gap-5 lg:gap-0"
+            >
+              <div className="">
+                <Image src={item.icon} alt="icon" width={100} height={100} />
+              </div>
+              <div className="flex-1 lg:flex-none space-y-2">
+                <h3 className="text-[22px] font-oswald font-light">
+                  {item.title}
+                </h3>
+                <p className="text-custom-gray">{item.text}</p>
+              </div>
             </div>
           ))}
         </div>

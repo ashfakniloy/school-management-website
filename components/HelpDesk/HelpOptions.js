@@ -3,8 +3,8 @@ import { helpOptions } from "../data/helpOptions";
 
 function HelpOptions() {
   return (
-    <div className="bg-[url('/images/help_desk.jpg')] bg-fixed w-full bg-cover  relative">
-      <div className="container py-20 flex justify-between gap-7">
+    <div className="bg-[url('/images/help_desk.jpg')] bg-fixed w-full bg-cover relative">
+      <div className="container py-20 flex flex-col lg:flex-row lg:justify-between gap-7">
         {helpOptions.map((item) => (
           <div key={item.id} className="bg-white pt-16 pb-14 px-10 text-center">
             <div className="cursor-pointer space-y-4">

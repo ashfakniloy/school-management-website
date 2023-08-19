@@ -3,16 +3,16 @@ import Link from "next/link";
 
 function Banner() {
   return (
-    <div className="my-5 pt-[60px] mx-[226px]">
-      <div className="flex justify-between items-center gap-8">
-        <div className="space-y-8 ">
-          <h1 className="text-[55px] font-medium font-oswald text-custom-green uppercase">
+    <div className="my-5 pt-[60px] mx-3 lg:mx-[226px]">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-8">
+        <div className="space-y-3 lg:space-y-8">
+          <h1 className="text-4xl lg:text-[55px] font-medium font-oswald text-custom-green uppercase">
             WEB-SCHOOL ERP
           </h1>
-          <h3 className="pt-4 text-3xl font-light font-oswald">
+          <h3 className="lg:pt-4 text-3xl font-light font-oswald">
             Institution Management Software System
           </h3>
-          <p className="max-w-[360px] text-custom-gray">
+          <p className="lg:max-w-[360px] text-custom-gray">
             Say hello to better institution management and E-Learning platform.
           </p>
           <Link href="/contact-us" passHref>
@@ -24,7 +24,7 @@ function Banner() {
             </button>
           </Link>
         </div>
-        <div className="w-[752px] h-[553px] relative">
+        <div className="h-[250px] lg:w-[752px] lg:h-[553px] relative">
           <Image
             src="/images/school-banner.png"
             alt="school banner"

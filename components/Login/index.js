@@ -50,7 +50,7 @@ function Login({ client }) {
 
   return (
     <div className="container py-20">
-      <div className="flex justify-center items-center">
+      <div className="lg:flex justify-center items-center">
         <div className="bg-custom-gray6 px-10 py-14 shadow-lg">
           <h1 className="text-2xl font-oswald text-center">
             Log in as <span className="capitalize">{client}</span>
@@ -66,7 +66,7 @@ function Login({ client }) {
                 <Form>
                   {/* <ToastContainer /> */}
                   <div className="text-sm gap-y-5 md:gap-y-7">
-                    <div className="min-w-[400px]">
+                    <div className="lg:min-w-[400px]">
                       <TextField label="Email *" name="email" type="email" />
                       <TextField
                         label="Password *"

@@ -4,9 +4,9 @@ function MobileApp() {
   return (
     <div className="bg-[url('/images/student-flip.jpg')] bg-fixed w-full bg-cover bg-center relative text-white">
       <div className="absolute bg-black opacity-25 inset-0" />
-      <div className="container flex justify-end py-[500px] relative">
-        <div className="max-w-[600px] space-y-5 absolute top-64">
-          <h1 className="text-5xl font-oswald font-light">
+      <div className="container flex justify-end py-[400px] lg:py-[500px] relative">
+        <div className="mx-3 lg:mx-0 lg:max-w-[600px] space-y-5 absolute top-36 lg:top-64">
+          <h1 className="text-3xl lg:text-5xl font-oswald font-light">
             We’ll find you the right answers
           </h1>
           <p className="">

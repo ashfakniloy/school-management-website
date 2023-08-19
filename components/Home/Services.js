@@ -5,11 +5,11 @@ function Services() {
   return (
     <div className="bg-gray-100 mt-20">
       <div className="container pt-14 pb-24">
-        <h3 className="font-oswald font-light text-3xl text-center">
+        <h3 className="font-oswald font-light text-2xl lg:text-3xl text-center">
           See what we can do for your Institution !
         </h3>
 
-        <div className="mt-14  grid grid-cols-4">
+        <div className="mt-8 lg:mt-14 grid grid-cols-1 lg:grid-cols-4">
           {servicesData.map((service) => (
             <div
               key={service.id}

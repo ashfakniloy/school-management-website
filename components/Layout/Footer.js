@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="bg-gray-100 py-10">
       <div className="container">
-        <div className="flex justify-between">
+        <div className="flex flex-wrap justify-between gap-7 lg:gap-0">
           <div className="">
             <h3 className="text-[22px] font-oswald font-light mb-5">
               Quick links
@@ -41,7 +41,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="my-10 border-t border-slate-200" />
+      <div className="my-5 lg:my-10 border-t border-slate-200" />
       <div className="container flex justify-between">
         <p className="text-sm">
           &copy; 2022 Web School ERP. All Rights Reserved

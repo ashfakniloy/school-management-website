@@ -21,10 +21,10 @@ function Message() {
 
   return (
     <div className="bg-slate-50">
-      <div className="container py-10">
-        <div className="flex gap-8">
-          <div className="space-y-8 text-right">
-            <h1 className="text-[42px] mt-6 font-oswald font-light">
+      <div className="container py-8 lg:py-10">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="space-y-4 lg:space-y-8 text-center lg:text-right">
+            <h1 className="text-[28px] lg:text-[42px] mt-6 font-oswald font-light">
               Write a message
             </h1>
             <p className="text-custom-gray">
@@ -33,7 +33,7 @@ function Message() {
             </p>
           </div>
 
-          <div className="min-w-[800px]">
+          <div className="lg:min-w-[800px]">
             <Formik
               initialValues={initialValues}
               validationSchema={validate}

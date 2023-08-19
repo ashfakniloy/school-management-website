@@ -3,12 +3,12 @@ import { efficientData } from "../data/efficientData";
 function Efficient() {
   return (
     <div className="bg-gray-100">
-      <div className="container py-20">
-        <h2 className="text-3xl font-oswald font-light text-center">
+      <div className="container py-10 lg:py-20">
+        <h2 className="text-2xl lg:text-3xl font-oswald font-light text-center">
           Interactive Academic Administration Made More Efficient
         </h2>
 
-        <div className="mt-14 grid grid-cols-3 gap-2">
+        <div className="mt-8 lg:mt-14 grid grtid-cols-1 lg:grid-cols-3 gap-2">
           {efficientData.map((item) => (
             <div key={item.id} className="px-6 py-10 space-y-5">
               <h3 className="text-[22px] text-custom-gray font-oswald">

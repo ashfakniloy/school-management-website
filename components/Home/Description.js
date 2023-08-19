@@ -3,8 +3,8 @@ import { descriptionData } from "../data/descriptionData";
 
 function Description() {
   return (
-    <div className="container my-14">
-      <h1 className="text-[44px] font-light mb-10 font-oswald">
+    <div className="container my-8 lg:my-14">
+      <h1 className="text-[28px] lg:text-[44px] font-light mb-10 font-oswald leading-8 lg:leading-0">
         The{" "}
         <span className="text-custom-green">
           Advanced School Management Software
@@ -14,13 +14,13 @@ function Description() {
       </h1>
 
       <div className="py-5 border-t border-gray-200 text-center">
-        <h1 className="text-[42px] mx-20 leading-tight font-light text-custom-gray2 font-oswald">
+        <h1 className="text-[26px] lg:text-[42px] lg:mx-20 leading-tight font-light text-custom-gray2 font-oswald">
           Web School ERP: Powerful & Easy to Use School Management Software for
           Schools & Educational Institutions
         </h1>
       </div>
 
-      <div className="my-10 grid grid-cols-3 gap-y-10">
+      <div className="my-5 lg:my-10 grid grid-cols-1 lg:grid-cols-3 gap-y-10">
         {descriptionData.map((description) => (
           <div
             key={description.id}
