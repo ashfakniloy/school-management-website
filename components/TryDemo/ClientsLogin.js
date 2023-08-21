@@ -39,7 +39,7 @@ function ClientsLogin() {
               {client.name}
             </h4>
             <Link href={client.link} passHref>
-              <div className="px-3 py-3 mx-20 border-2 border-custom-green rounded text-sm text-custom-green hover:bg-gray-100 transition duration-300 cursor-pointer">
+              <div className="px-3 py-3 mx-10 border-2 border-custom-green rounded text-sm text-custom-green hover:bg-gray-100 transition duration-300 cursor-pointer">
                 Login as {client.button}
               </div>
             </Link>
