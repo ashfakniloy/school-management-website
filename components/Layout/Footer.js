@@ -42,9 +42,18 @@ function Footer() {
         </div>
       </div>
       <div className="my-5 lg:my-10 border-t border-slate-200" />
-      <div className="container flex justify-between">
-        <p className="text-sm">
-          &copy; 2022 Web School ERP. All Rights Reserved
+      <div className="container flex flex-col lg:flex-row gap-2 lg:gap-0 justify-between items-center text-sm">
+        <p className="">&copy; 2022 Web School ERP. All Rights Reserved</p>
+        <p>
+          <span className="font-semibold mr-2">Developed by:</span>
+          <a
+            href="https://niloy.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-500 hover:text-blue-700 underline transition-colors duration-200"
+          >
+            Ashfak Ahmed Niloy
+          </a>
         </p>
       </div>
     </div>
