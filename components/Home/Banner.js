@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Banner() {
   return (
-    <div className="my-5 pt-[60px] mx-3 lg:mx-[226px]">
+    <div className="my-5 pt-[60px] mx-auto px-3 lg:px-10 max-w-[1500px]">
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-8">
         <div className="space-y-3 lg:space-y-8">
           <h1 className="text-4xl lg:text-[55px] font-medium font-oswald text-custom-green uppercase">
